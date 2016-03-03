@@ -1,0 +1,97 @@
+<div class="container-fluid" ng-controller="SecurityCtrl as secCtrl">
+	<h4>{{secCtrl.application}}</h4>
+	<!-- Security Master - BEGIN -->
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>CUSIP:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.cusip}}</div>
+		<div class="col-sm-1"><p class="text-right"><label>ISIN:</div>
+		<div class="col-sm-1">{{secCtrl.security.isin}}</div>
+		<div class="col-sm-1"><p class="text-right"><label>WA:</div>
+		<div class="col-sm-1">{{secCtrl.security.wa}}</div>
+		<div class="col-sm-1"><p class="text-right"><label>BB:</div>
+		<div class="col-sm-1">{{secCtrl.security.bb}}</div>
+		<div class="col-sm-1"></div>
+		<div class="col-sm-1"><p class="text-right"><label>GDR:</div>
+		<div class="col-sm-1">{{secCtrl.security.security_id}}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Asset Type:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.asset_type}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>BB Name:</label></p></div>
+		<div class="col-sm-3">{{secCtrl.security.bb_name}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Sec Type:</label></p></div>
+		<div class="col-sm-2">{{secCtrl.security.security_type}}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Maturity:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.maturity_dt | date:'MM/dd/yyyy'}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Issuer:</label></p></div>
+		<div class="col-sm-4">{{secCtrl.security.issuer}}</div>
+		<div class="col-sm-1"><p class="text-right"><label>Product:</label></p></div>
+		<div class="col-sm-2">{{secCtrl.security.product}}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>First Pay Date:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.pay_date | date:'MM/dd/yyyy'}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Issue Name:</label></p></div>
+		<div class="col-sm-4">{{secCtrl.security.name}}</div>
+		<div class="col-sm-2"><p class="text-right"><label></label></p></div>
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Dated Date:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.dated_date | date:'MM/dd/yyyy'}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Issue Date:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.issue_date | date:'MM/dd/yyyy'}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Currency:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.currency_code}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Country:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.country_code}}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Factor:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.factor}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Factor Date:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.factor_date | date:'MM/dd/yyyy'}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Contr Size:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.contract_size}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Dur Factor:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.dur_factor}}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Delay Day:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.delay_day}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Coupon Date:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.coupon_date | date:'MM/dd/yyyy'}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Price Multiplier:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.price_multiplier}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Date Count:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.date_count}}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Comp Iss Code:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.ticker_symbol}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Coupon Freq:</label></p></div>
+		<div class="col-sm-2">{{secCtrl.security.coupon_frequency}}</div>
+		<div class="col-sm-2"></div>
+		<div class="col-sm-2"><p class="text-right"><label>Notional Multiplier:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.notional_multiplier}}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Coupon:</label></p></div>
+		<div class="col-sm-1">{{secCtrl.security.coupon}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Create Date:</label></p></div>
+		<div class="col-sm-2">{{secCtrl.security.create_date | date:'MM/dd/yyyy HH:mm:ss'}}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Last Update:</label></p></div>
+		<div class="col-sm-2">{{secCtrl.security.last_update | date:'MM/dd/yyyy HH:mm:ss'}}</div>
+	</div>
+	<!-- Security Master - END -->
+	<!-- Tabs - Security Characteristic, Positions, Analytics, ... -->
+ 	<div role="tabpanel" ng-controller="TabController as tabCtrl">
+	  <tabset>
+		<tab ng-repeat="tab in tabCtrl.tabs" heading="{{tab.title}}" active="tab.active" disable="tab.disabled">
+      		<div ng-include="tab.url"></div>
+    	</tab>
+	  </tabset>
+	</div>
+</div>

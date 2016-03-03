@@ -1,0 +1,32 @@
+[
+  {
+    "name":"ISIN",
+    "security_id":1002946,
+    "field_id":90505,
+    "field_grp_id":38,
+    "value":"USMY00019",
+    "over_write_flg":"",
+    "user_id":231,
+    "last_update":"7/8/2010 10:14:00 AM"
+  },
+  {
+    "name":"CUSIP",
+    "security_id":1002946,
+    "field_id":94032,
+    "field_grp_id":38,
+    "value":"MY00013",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"6/13/2011 9:24:00 AM"
+  },
+  {
+    "name":"MY",
+    "security_id":1002946,
+    "field_id":91709,
+    "field_grp_id":38,
+    "value":"MY",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"9/4/2015 2:31:00 PM"
+  }
+]

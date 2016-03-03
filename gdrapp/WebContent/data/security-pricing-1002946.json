@@ -1,0 +1,132 @@
+[
+  {
+    "security_id":1002946,
+    "date":"2015-07-31",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"7/31/2015 4:47:18 PM",
+    "created_date":"7/30/2015 8:02:33 PM",
+    "user_login":"awong"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/9/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"10/9/2015 4:26:33 PM",
+    "created_date":"10/8/2015 7:20:25 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"8/31/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"8/31/2015 3:52:38 PM",
+    "created_date":"8/28/2015 8:23:03 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"9/28/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"9/28/2015 5:28:02 PM",
+    "created_date":"9/25/2015 8:07:47 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"9/29/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"9/29/2015 3:39:23 PM",
+    "created_date":"9/28/2015 8:02:59 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"9/30/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"9/30/2015 5:03:49 PM",
+    "created_date":"9/29/2015 8:02:47 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/1/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"10/1/2015 3:48:04 PM",
+    "created_date":"9/30/2015 8:03:06 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/2/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"10/2/2015 4:39:03 PM",
+    "created_date":"10/1/2015 8:03:21 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/5/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"10/5/2015 4:16:59 PM",
+    "created_date":"10/2/2015 8:02:26 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/8/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"10/8/2015 4:04:47 PM",
+    "created_date":"10/7/2015 7:22:06 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/12/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven. Rolled from 10/09/2015",
+    "last_update":"10/9/2015 4:26:33 PM",
+    "created_date":"10/9/2015 7:51:47 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/6/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"10/6/2015 4:04:00 PM",
+    "created_date":"10/5/2015 7:21:08 PM",
+    "user_login":"it"
+  },
+  {
+    "security_id":1002946,
+    "date":"10/7/2015 12:00:00 AM",
+    "name":"BOA",
+    "current_source_flag":true,
+    "reason":"Rolled from Heaven",
+    "last_update":"10/7/2015 3:55:35 PM",
+    "created_date":"10/6/2015 7:20:40 PM",
+    "user_login":"it"
+  }
+]

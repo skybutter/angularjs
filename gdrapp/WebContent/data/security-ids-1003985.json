@@ -1,0 +1,22 @@
+[
+  {
+    "name":"ISIN",
+    "security_id":1003985,
+    "field_id":94005,
+    "field_grp_id":38,
+    "value":"NYK9349870",
+    "over_write_flg":"",
+    "user_id":742,
+    "last_update":"7/12/2010 10:12:00 AM"
+  },
+  {
+    "name":"CUSIP",
+    "security_id":1003985,
+    "field_id":90432,
+    "field_grp_id":38,
+    "value":"NYK9349870",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"6/13/2011 4:04:00 PM"
+  }
+]

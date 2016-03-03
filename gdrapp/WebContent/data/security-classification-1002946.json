@@ -1,0 +1,112 @@
+[
+  {
+    "name":"CLASSIFY1",
+    "security_id":1002946,
+    "field_id":115006,
+    "field_grp_id":21,
+    "value":"INDEX_INFLATION",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CLASSIFY12",
+    "security_id":1002946,
+    "field_id":110098,
+    "field_grp_id":21,
+    "value":"FIXED",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CLASSIFY13",
+    "security_id":1002946,
+    "field_id":121013,
+    "field_grp_id":21,
+    "value":"PUBLIC",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"2/14/2015 12:19:00 AM"
+  },
+  {
+    "name":"CLASSIFY14",
+    "security_id":1002946,
+    "field_id":112026,
+    "field_grp_id":21,
+    "value":"OTC",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"3/15/2013 11:16:00 PM"
+  },
+  {
+    "name":"CLASSIFY15",
+    "security_id":1002946,
+    "field_id":110545,
+    "field_grp_id":21,
+    "value":"AMERICAS",
+    "over_write_flg":"",
+    "user_id":10000,
+    "last_update":"7/9/2010 2:04:00 AM"
+  },
+  {
+    "name":"CLASSIFY16",
+    "security_id":1002946,
+    "field_id":110348,
+    "field_grp_id":37,
+    "value":"20151009",
+    "over_write_flg":"",
+    "user_id":10000,
+    "last_update":"10/9/2015 7:01:00 PM"
+  },
+  {
+    "name":"CLASSIFY17",
+    "security_id":1002946,
+    "field_id":110250,
+    "field_grp_id":21,
+    "value":"GOVT",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CLASSIFY18",
+    "security_id":1002946,
+    "field_id":118051,
+    "field_grp_id":21,
+    "value":"FRED MARKI",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"5/1/2013 5:26:00 PM"
+  },
+  {
+    "name":"CLASSIFY19",
+    "security_id":1002946,
+    "field_id":116058,
+    "field_grp_id":21,
+    "value":"USD",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"3/15/2013 11:16:00 PM"
+  },
+  {
+    "name":"CLASSIFY20",
+    "security_id":1002946,
+    "field_id":110559,
+    "field_grp_id":21,
+    "value":"US",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CLASSIFY21",
+    "security_id":1002946,
+    "field_id":110641,
+    "field_grp_id":21,
+    "value":"NON-STOCK",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  }
+]

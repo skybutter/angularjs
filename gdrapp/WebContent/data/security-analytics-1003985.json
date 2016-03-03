@@ -1,0 +1,52 @@
+[
+  {
+    "security_id":1399292,
+    "date":"7/31/2015 12:00:00 AM",
+    "field":"Price",
+    "source":"AMD",
+    "value":102.5547,
+    "current_source_flag":true,
+    "user_login":"it",
+    "last_update":"7/31/2015 2:25:21 PM"
+  },
+  {
+    "security_id":1399292,
+    "date":"7/31/2015 12:00:00 AM",
+    "field":"Yield",
+    "source":"Book",
+    "value":4.824,
+    "current_source_flag":true,
+    "user_login":"rj",
+    "last_update":"7/31/2015 4:28:27 PM"
+  },
+  {
+    "security_id":1399292,
+    "date":"7/31/2015 12:00:00 AM",
+    "field":"Duration",
+    "source":"Reference",
+    "value":4.8286,
+    "current_source_flag":false,
+    "user_login":"ssamson",
+    "last_update":"8/1/2015 2:23:17 AM"
+  },
+  {
+    "security_id":1399292,
+    "date":"7/31/2015 12:00:00 AM",
+    "field":"Duration",
+    "source":"BMP",
+    "value":4.822,
+    "current_source_flag":false,
+    "user_login":"it",
+    "last_update":"7/31/2015 4:07:31 PM"
+  },
+  {
+    "security_id":1399292,
+    "date":"7/31/2015 12:00:00 AM",
+    "field":"Duration",
+    "source":"Parallel",
+    "value":4.8267643063,
+    "current_source_flag":false,
+    "user_login":"developer",
+    "last_update":"7/31/2015 11:59:11 PM"
+  }
+]

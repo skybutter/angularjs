@@ -1,0 +1,56 @@
+[
+  {
+    "security_id":1002946,
+    "pf_id":101,
+    "pf_number":101,
+    "original_face":2944000,
+    "amount":3219882.0801,
+    "pf_name":"Pasadena City",
+    "concentration":0.05
+  },
+  {
+    "security_id":1002946,
+    "pf_id":5354,
+    "pf_number":5354,
+    "original_face":2944000,
+    "amount":3219882.0801,
+    "pf_name":"Metro 5354",
+    "concentration":0.05
+  },
+  {
+    "security_id":1002946,
+    "pf_id":454,
+    "pf_number":454,
+    "original_face":4240000,
+    "amount":4637330.1697,
+    "pf_name":"Pasadena 454",
+    "concentration":0.05
+  },
+  {
+    "security_id":1002946,
+    "pf_id":9876,
+    "pf_number":9876,
+    "original_face":600000,
+    "amount":656225.9674,
+    "pf_name":"Long Beach 9876",
+    "concentration":0.05
+  },
+  {
+    "security_id":1002946,
+    "pf_id":23456,
+    "pf_number":23456,
+    "original_face":1956000,
+    "amount":2139296.6537,
+    "pf_name":"Cerritos 23456",
+    "concentration":0.05
+  },
+  {
+    "security_id":1002946,
+    "pf_id":1234567,
+    "pf_number":1234567,
+    "original_face":1956000,
+    "amount":2139296.6537,
+    "pf_name":"Cypress 1234567",
+    "concentration":0.05
+  }
+]

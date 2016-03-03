@@ -1,0 +1,122 @@
+[
+  {
+    "name":"CHARACTERISTIC1",
+    "security_id":1002946,
+    "field_id":656,
+    "field_grp_id":37,
+    "value":"07/15/2020",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"2/4/2014 2:33:00 PM"
+  },
+  {
+    "name":"CHARACTERISTIC2",
+    "security_id":1002946,
+    "field_id":663,
+    "field_grp_id":37,
+    "value":"100.000000",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"2/4/2014 2:33:00 PM"
+  },
+  {
+    "name":"CHARACTERISTIC3",
+    "security_id":1002946,
+    "field_id":1482,
+    "field_grp_id":37,
+    "value":"07/15/2020",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"2/4/2014 2:33:00 PM"
+  },
+  {
+    "name":"CHARACTERISTIC4",
+    "security_id":1002946,
+    "field_id":150,
+    "field_grp_id":37,
+    "value":"100.000000",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"2/4/2014 2:33:00 PM"
+  },
+  {
+    "name":"CHARACTERISTIC5",
+    "security_id":1002946,
+    "field_id":17660,
+    "field_grp_id":37,
+    "value":"TSY INFL IX N/B",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC6",
+    "security_id":1002946,
+    "field_id":17670,
+    "field_grp_id":37,
+    "value":"TII",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC7",
+    "security_id":1002946,
+    "field_id":17690,
+    "field_grp_id":37,
+    "value":"10/13/2015",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"10/9/2015 2:26:00 PM"
+  },
+  {
+    "name":"CHARACTERISTIC8",
+    "security_id":1002946,
+    "field_id":18030,
+    "field_grp_id":37,
+    "value":"100",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC9",
+    "security_id":1002946,
+    "field_id":18120,
+    "field_grp_id":37,
+    "value":"US GOVT",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC10",
+    "security_id":1002946,
+    "field_id":18140,
+    "field_grp_id":37,
+    "value":"01/15/2011",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC11",
+    "security_id":1002946,
+    "field_id":18160,
+    "field_grp_id":37,
+    "value":"1.250000",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC12",
+    "security_id":1002946,
+    "field_id":18300,
+    "field_grp_id":37,
+    "value":"N",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/8/2010 10:26:00 AM"
+  }
+]

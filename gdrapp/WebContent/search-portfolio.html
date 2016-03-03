@@ -1,0 +1,55 @@
+<div class="container-fluid">
+	<div class="row">
+		<!-- search fields -->
+		<div class="col-md-12" ng-controller="PfSearchCtrl as pfSearchCtrl">
+			<div class="row">
+				<div class="col-md-12"><h3>Search Portfolio</h3></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Portfolio Number:</label></p></div>
+				<div class="col-md-5"><input type="text" id="pf_number" class="form-control input-sm" ng-model="pfSearchCtrl.params.pf_num"/></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Portfolio Name:</label></p></div>
+				<div class="col-md-5"><input type="text" id="pf_name" class="form-control input-sm" ng-model="pfSearchCtrl.params.name" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Description:</label></p></div>
+				<div class="col-md-5"><input type="text" id="description" class="form-control input-sm" ng-model="pfSearchCtrl.params.description" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Portfolio Style:</label></p></div>
+				<div class="col-md-5"><input type="text" id="pf_style" class="form-control input-sm" ng-model="pfSearchCtrl.params.style" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<!--  should derivative and international be Checkbox (true/false) -->
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Derivative:</label></p></div>
+				<div class="col-md-5"><input type="text" id="derivative" class="form-control input-sm" ng-model="pfSearchCtrl.params.derivative" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>International:</label></p></div>
+				<div class="col-md-5"><input type="text" id="international" class="form-control input-sm" ng-model="pfSearchCtrl.params.international" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-4">
+					<button class="btn btn-primary" ng-click="pfSearchCtrl.search()">Find</button>
+					<button class="btn btn-default" ng-click="pfSearchCtrl.clear()">Clear</button>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<!-- Search Results in Grid -->
+			<div class="row">
+				<div class="col-md-12">
+					<div id="grid-pf" ui-grid="pfSearchCtrl.gridOptions1" class="grid-search-pf"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

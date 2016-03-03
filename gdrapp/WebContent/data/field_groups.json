@@ -1,0 +1,90 @@
+[
+  {
+    "field_grp_id":9,
+    "name":"COMDTY",
+    "long_name":"commodity markets",
+    "description":"commodity markets",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":8,
+    "name":"EQUITY",
+    "long_name":"equity shares",
+    "description":"equity shares",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":6,
+    "name":"MUNI",
+    "long_name":"municipal debt",
+    "description":"municipal debt",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":7,
+    "name":"PFD",
+    "long_name":"preferred shares",
+    "description":"preferred shares",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":12,
+    "name":"CLIENT",
+    "long_name":"Portfolio functionality",
+    "description":"Portfolio functionality",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":5,
+    "name":"M-MKT",
+    "long_name":"money market",
+    "description":"money market",
+    "sort_order":null,
+    "entity":"Bloomberg Data"
+  },
+  {
+    "field_grp_id":2,
+    "name":"GOVT",
+    "long_name":"government securities (U.S. treasury and non-U.S.)",
+    "description":"government securities (U.S. treasury and non-U.S.)",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":3,
+    "name":"CORP",
+    "long_name":"corporate debt",
+    "description":"corporate debt",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":10,
+    "name":"INDEX",
+    "long_name":"indexes",
+    "description":"indexes",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":11,
+    "name":"CURNCY",
+    "long_name":"currency markets",
+    "description":"currency markets",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  },
+  {
+    "field_grp_id":4,
+    "name":"MTGE",
+    "long_name":"mortgage securities",
+    "description":"mortgage securities",
+    "sort_order":null,
+    "entity":"Bloomberg"
+  }
+]

@@ -1,0 +1,37 @@
+<div ng-controller="SecurityPricingCtrl as secPricingctrl">
+	<button id='toggleFiltering' ng-click="secPricingctrl.toggleFiltering()" class="btn btn-success">Toggle Filtering</button>
+	<!-- The form could be a Angular directive -->
+  <form>
+    <div class="row">    
+      <div class="form-group" ng-controller="DatePickerController as dateCtrl">
+		<div class="col-sm-1"><span class="input-group-btn"><button type="button" class="btn btn-default" ng-click="secPricingctrl.getPricing(secPricingctrl.startDate, secPricingctrl.endDate)"><i class="glyphicon glyphicon-search"></i></button></span></div>
+		<div class="col-sm-3">
+			<p class="input-group">
+				<input name="start_date" type="text" class="form-control" datepicker-popup="yyyy-MM-dd" ng-model="secPricingctrl.startDate" is-open="dateCtrl.datePickers.startDate"
+				 min-date="'2013-08-03'" max-date="{{dateCtrl.maxDate}}" datepicker-options="dateCtrl.dateOptions" date-disabled="dateCtrl.disabled(date, mode)" 
+				 ng-required="true" close-text="Close" 
+				 placeholder='start date'
+				 popover-trigger="mouseenter" popover="Weekend disabled!" />
+	              <span class="input-group-btn">
+	                <button type="button" class="btn btn-default" ng-click="dateCtrl.open($event, 'startDate')"><i class="glyphicon glyphicon-calendar"></i></button>
+	              </span>
+            </p>
+        </div>
+        <div class="col-sm-3">
+        <p class="input-group">
+				<input name="end_date" type="text" class="form-control" datepicker-popup="yyyy-MM-dd" ng-model="secPricingctrl.endDate" is-open="dateCtrl.datePickers.endDate"
+				 min-date="'2013-07-01'" max-date="" datepicker-options="dateCtrl.dateOptions" date-disabled="dateCtrl.disabled(date, mode)" 
+				 ng-required="true" close-text="Close"
+				 placeholder='end date' />
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="dateCtrl.open($event, 'endDate')"><i class="glyphicon glyphicon-calendar"></i></button>
+              </span>
+        </p>
+		</div>
+		<div class="col-sm-1"></div>
+      </div>    
+    </div>
+  </form>
+	 
+	<div id="secPricingGrid" ui-grid="secPricingctrl.gridOptions1" ui-grid-resize-columns class="grid-sec-ratings"></div>
+</div>

@@ -1,0 +1,20 @@
+[
+  {
+    "security_id" : 1002946,
+    "asset_id": "101212323",
+    "id_context":"CUSIP",
+    "issuer":"",
+    "name":"US INFLATION-LINED TREASURY NOTE",
+    "coupon":1.25,
+    "maturity_date":"8/25/2029"
+  },
+  {
+    "security_id" : 1003985,
+    "asset_id": "909878656",
+    "id_context":"CUSIP",
+    "issuer":"",
+    "name":"US TREASURY NOTE",
+    "coupon":1.75,
+    "maturity_date":"2/15/2022"
+  }
+]

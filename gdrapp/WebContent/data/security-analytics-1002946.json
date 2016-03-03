@@ -1,0 +1,32 @@
+[
+  {
+    "security_id":1002946,
+    "date":"8/31/2015 12:00:00 AM",
+    "field":"Price",
+    "source":"BOA",
+    "value":106.063,
+    "current_source_flag":true,
+    "user_login":"developer",
+    "last_update":"7/31/2015 4:47:18 PM"
+  },
+  {
+    "security_id":1002946,
+    "date":"7/31/2015 12:00:00 AM",
+    "field":"Duration",
+    "source":"CITI",
+    "value":4.823,
+    "current_source_flag":false,
+    "user_login":"it",
+    "last_update":"7/31/2015 5:11:53 PM"
+  },
+  {
+    "security_id":1002946,
+    "date":"7/31/2015 12:00:00 AM",
+    "field":"Duration",
+    "source":"BOA",
+    "value":4.815,
+    "current_source_flag":true,
+    "user_login":"import",
+    "last_update":"8/3/2015 12:58:17 AM"
+  }
+]

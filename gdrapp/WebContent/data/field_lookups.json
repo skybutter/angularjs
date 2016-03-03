@@ -1,0 +1,35 @@
+[
+  {
+    "field":"SECURITY_TYPE",
+    "lookup_id":"51098",
+    "field_id":1781,
+    "value":"Share",
+    "description":"Equity Share",
+    "parent":"",
+    "grandparent":"",
+    "sort_order":null,
+    "expiration_date":""
+  },
+  {
+    "field":"SECURITY_TYPE",
+    "lookup_id":"51097",
+    "field_id":1781,
+    "value":"Bonds",
+    "description":"Bond - Debt Security",
+    "parent":"",
+    "grandparent":"",
+    "sort_order":null,
+    "expiration_date":""
+  },
+  {
+    "field":"SECURITY_TYPE",
+    "lookup_id":"51101",
+    "field_id":1781,
+    "value":"Open End Funds",
+    "description":" diversified portfolio of securities",
+    "parent":"",
+    "grandparent":"",
+    "sort_order":null,
+    "expiration_date":""
+  }
+]

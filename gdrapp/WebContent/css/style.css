@@ -1,0 +1,37 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.grid {
+  width: 800px;
+  height: 400px;
+}
+.grid-search-security {
+  width: 800px;
+  height: 360px;
+}
+.grid-search-pf {
+  width: 800px;
+  height: 400px;
+}
+
+.grid-sec-ids {
+  width: 800px;
+  height: 400px;
+}
+.grid-sec-pfs {
+  width: 900px;
+  height: 400px;
+}
+.grid-sec-ratings {
+  width: 1120px;
+  height: 340px;
+}
+.grid-maint-fields {
+  width: 1120px;
+  height: 600px;
+}
+.header-filtered {
+  color: blue;
+}
+
+.ui-grid-row:nth-child(even):hover .ui-grid-cell{background:lightblue}
+.ui-grid-row:nth-child(odd):hover .ui-grid-cell{background:lightblue}

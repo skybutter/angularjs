@@ -1,0 +1,80 @@
+<div class="container-fluid">
+	<div class="row">
+		<!-- search fields -->
+		<!-- defined controllerAs in the app.js -->
+		<!-- <div class="col-md-12" ng-controller="SecuritySearchCtrl as secSearchCtrl">-->
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-12"><h3>Search Security</h3></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Asset Id:</label></p></div>
+				<div class="col-md-5"><input type="text" id="asset_id" class="form-control input-sm" ng-model="secSearchCtrl.securityParams.asset_id" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Security Name:</label></p></div>
+				<div class="col-md-5"><input type="text" id="security_name" class="form-control input-sm" ng-model="secSearchCtrl.securityParams.name" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Issuer Name:</label></p></div>
+				<div class="col-md-5"><input type="text" id="issuer_name" class="form-control input-sm" ng-model="secSearchCtrl.securityParams.issuer_name" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>BB Name:</label></p></div>
+				<div class="col-md-5"><input type="text" id="bb_name" class="form-control input-sm" ng-model="secSearchCtrl.securityParams.bb_name" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Coupon:</label></p></div>
+				<div class="col-md-5"><input type="text" id="coupon" class="form-control input-sm" ng-model="secSearchCtrl.securityParams.coupon" /></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Active Only:</label></p></div>
+				<div class="col-md-5"><input type="checkbox" id="active_only" value="" class="checkbox" ng-model="secSearchCtrl.securityParams.active_only"></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"><p class="text-right"><label>Partial Search Asset IDs:</label></p></div>
+				<div class="col-md-5"><input type="checkbox" id="partial_search" value="true" class="checkbox" ng-model="secSearchCtrl.securityParams.partial_asset_id"></div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-5">
+					<label class="radio-inline"><input type="radio" name="idType" ng-model="secSearchCtrl.securityParams.id_type" value="ALL">All IDs</label>
+					<label class="radio-inline"><input type="radio" name="idType" ng-model="secSearchCtrl.securityParams.id_type" value="CUSIP">CUSIP</label>
+					<label class="radio-inline"><input type="radio" name="idType" ng-model="secSearchCtrl.securityParams.id_type" value="ISIN">ISIN</label>
+					<label class="radio-inline"><input type="radio" name="idType" ng-model="secSearchCtrl.securityParams.id_type" value="WA">WA</label>
+					<label class="radio-inline pull-right"><input type="radio" name="idType" ng-model="secSearchCtrl.securityParams.id_type" value="OTHER">Other</label>
+				</div>
+				<div class="col-md-2">
+				<select class="form-control pull-left input-sm" id="other_id" ng-model="secSearchCtrl.securityParams.id_type">
+					<option value="BB">BB</option>
+					<option value="BB_GLOBAL">BB_GLOBAL</option>
+					<option value="BB_UNIQUE">BB_UNIQUE</option>
+					<option value="CUSIP_REAL">CUSIP_REAL</option>
+				</select>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-4">
+					<button class="btn btn-primary" ng-click="secSearchCtrl.search()">Find</button>
+					<button class="btn btn-default" ng-click="secSearchCtrl.clear()">Clear</button>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<!-- Search Results in Grid -->
+			<div class="row">
+				<div class="col-md-12">
+					<div id="grid1" ui-grid="secSearchCtrl.gridOptions1" ui-grid-selection ui-grid-resize-columns class="grid-search-security"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

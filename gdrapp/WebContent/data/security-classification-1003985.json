@@ -1,0 +1,102 @@
+[
+  {
+    "name":"CLASSIFY3",
+    "security_id":1003985,
+    "field_id":110706,
+    "field_grp_id":21,
+    "value":"NORMAL",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CLASSIFY31",
+    "security_id":1003985,
+    "field_id":110508,
+    "field_grp_id":21,
+    "value":"FIXED",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CLASSIFY32",
+    "security_id":1003985,
+    "field_id":114013,
+    "field_grp_id":21,
+    "value":"PUBLIC",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CLASSIFY33",
+    "security_id":1003985,
+    "field_id":131026,
+    "field_grp_id":21,
+    "value":"OTC",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"3/15/2013 11:16:00 PM"
+  },
+  {
+    "name":"CLASSIFY34",
+    "security_id":1003985,
+    "field_id":110045,
+    "field_grp_id":21,
+    "value":"AMERICAS",
+    "over_write_flg":"",
+    "user_id":10000,
+    "last_update":"7/12/2010 2:28:00 PM"
+  },
+  {
+    "name":"CLASSIFY35",
+    "security_id":1003985,
+    "field_id":118050,
+    "field_grp_id":21,
+    "value":"GOVT",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CLASSIFY36",
+    "security_id":1003985,
+    "field_id":161051,
+    "field_grp_id":21,
+    "value":"FRED MARKI",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"10/22/2010 11:53:00 AM"
+  },
+  {
+    "name":"CLASSIFY37",
+    "security_id":1003985,
+    "field_id":171058,
+    "field_grp_id":21,
+    "value":"USD",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"3/15/2013 11:16:00 PM"
+  },
+  {
+    "name":"CLASSIFY38",
+    "security_id":1003985,
+    "field_id":112059,
+    "field_grp_id":21,
+    "value":"US",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CLASSIFY39",
+    "security_id":1003985,
+    "field_id":118061,
+    "field_grp_id":21,
+    "value":"NON-FUND",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  }
+]

@@ -1,0 +1,76 @@
+<div class="container-fluid" ng-controller="PortfolioCtrl as pfCtrl">
+	<h4>{{pfCtrl.application}}</h4>
+	<!-- portfolio Master - BEGIN -->
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>PF Number:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.pf_number }}</div>
+		<div class="col-sm-1"><p class="text-right"><label>PF Name:</label></div>
+		<div class="col-sm-3">{{ pfCtrl.portfolio.pf_name }}</div>
+		<div class="col-sm-1"><p class="text-right"><label>Style:</label></div>
+		<div class="col-sm-2">{{ pfCtrl.portfolio.pf_style_cd }}</div>
+		<div class="col-sm-1"><p class="text-right"><label>Rating:</label></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.pf_rating_cd }}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Client Name:</label></p></div>
+		<div class="col-sm-4">{{ pfCtrl.portfolio.pf_desc }}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Derivative:</label></p></div>
+		<div class="col-sm-2">{{ pfCtrl.portfolio.deriv_flg }}</div>
+		<div class="col-sm-1"><p class="text-right"><label>Non$:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.intl_flg }}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Term Date:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.terminate_date | date:'MM/dd/yyyy' }}</div>
+		<div class="col-sm-2"><p class="text-right">
+			<input type="checkbox" id="active_only" value="" ng-model="pfCtrl.portfolio.jointly_manage_flg"><label>Jointly Managed</label></p>
+		</div>
+		<div class="col-sm-2">
+			<input type="checkbox" id="active_only" value="" ng-model="pfCtrl.portfolio.broker_restriction_flg"><label>Broker Restriction</label></p>
+		</div>
+		<div class="col-sm-2"><p class="text-right"><label>Clearing Broker:</label></p></div>
+		<div class="col-sm-3">{{ pfCtrl.portfolio.clear_broker }}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label>Incep Date:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.inception_dt | date:'MM/dd/yyyy' }}</div>
+		<div class="col-sm-2">
+			<input type="checkbox" id="active_only" value="" ng-model="pfCtrl.portfolio.compliance_flg"><label>Compliance Flag</label></p>
+		</div>
+		<div class="col-sm-2">
+			<input type="checkbox" id="active_only" value="" ng-model="pfCtrl.portfolio.analytic_flg"><label>Analytic Flag</label></p>
+		</div>
+		<div class="col-sm-1"><p class="text-right"><label>Status:</label></p></div>
+		<div class="col-sm-1"><p class="text-right"><label>Grp Sort:</label></p></div>
+		<div class="col-sm-3">{{ pfCtrl.portfolio.analytic_grp_sort }}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p class="text-right"><label></label></p></div>
+		<div class="col-sm-1"></div>
+		<div class="col-sm-2"><p class="text-right"><label>Analytic DD Sort:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.analytic_dd_sort }}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Option:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.option_flg }}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Strategy ID:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.strategy_id }}</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"><p class="text-right"><label>PF Mgr:</label></p></div>
+		<div class="col-sm-2">{{ pfCtrl.portfolio.pf_mgr }}</div>
+		<div class="col-sm-1"><p class="text-right"><label>Type:</label></p></div>
+		<div class="col-sm-2">{{ pfCtrl.portfolio.pf_type_desc }}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Page Sort:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.analytic_pg_sort }}</div>
+		<div class="col-sm-2"><p class="text-right"><label>Fld Grp:</label></p></div>
+		<div class="col-sm-1">{{ pfCtrl.portfolio.field_grp }}</div>
+	</div>
+	<!-- Portfolio Master - END -->
+	<!-- Tabs - Portfolio Characteristic, Holdings, Analytics, ... -->
+ 	<div role="tabpanel" ng-controller="PfTabController as tabCtrl">
+	  <tabset>
+		<tab ng-repeat="tab in tabCtrl.tabs" heading="{{tab.title}}" active="tab.active" disable="tab.disabled">
+      		<div ng-include="tab.url"></div>
+    	</tab>
+	  </tabset>
+	</div>
+</div>

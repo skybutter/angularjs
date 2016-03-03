@@ -1,0 +1,192 @@
+[
+  {
+    "name":"CHARACTERISTIC111",
+    "security_id":1003985,
+    "field_id":657,
+    "field_grp_id":37,
+    "value":"07/15/2013",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC112",
+    "security_id":1003985,
+    "field_id":665,
+    "field_grp_id":37,
+    "value":"100.0",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC113",
+    "security_id":1003985,
+    "field_id":1484,
+    "field_grp_id":37,
+    "value":"07/15/2013",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC114",
+    "security_id":1003985,
+    "field_id":1496,
+    "field_grp_id":37,
+    "value":"100.0",
+    "over_write_flg":"",
+    "user_id":10827,
+    "last_update":"7/12/2010 10:25:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC115",
+    "security_id":1003985,
+    "field_id":17660,
+    "field_grp_id":37,
+    "value":"US TREASURY N/B",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC116",
+    "security_id":1003985,
+    "field_id":17667,
+    "field_grp_id":37,
+    "value":"T",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC117",
+    "security_id":1003985,
+    "field_id":17609,
+    "field_grp_id":37,
+    "value":"07/12/2013",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/11/2013 2:45:00 PM"
+  },
+  {
+    "name":"CHARACTERISTIC118",
+    "security_id":1003985,
+    "field_id":18903,
+    "field_grp_id":37,
+    "value":"100",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC119",
+    "security_id":1003985,
+    "field_id":18812,
+    "field_grp_id":37,
+    "value":"US GOVT",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC120",
+    "security_id":1003985,
+    "field_id":18714,
+    "field_grp_id":37,
+    "value":"01/15/2011",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC121",
+    "security_id":1003985,
+    "field_id":16816,
+    "field_grp_id":37,
+    "value":"1.000000",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC122",
+    "security_id":1003985,
+    "field_id":18530,
+    "field_grp_id":37,
+    "value":"N",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC123",
+    "security_id":1003985,
+    "field_id":18444,
+    "field_grp_id":37,
+    "value":"FIXED",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC124",
+    "security_id":1003985,
+    "field_id":13881,
+    "field_grp_id":37,
+    "value":"US TREASURY NOTE",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"8/4/2010 9:18:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC125",
+    "security_id":1003985,
+    "field_id":18822,
+    "field_grp_id":37,
+    "value":"1",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC126",
+    "security_id":1003985,
+    "field_id":18884,
+    "field_grp_id":37,
+    "value":"7",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC127",
+    "security_id":1003985,
+    "field_id":18906,
+    "field_grp_id":37,
+    "value":"1",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/27/2013 10:03:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC128",
+    "security_id":1003985,
+    "field_id":18963,
+    "field_grp_id":37,
+    "value":"N",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  },
+  {
+    "name":"CHARACTERISTIC129",
+    "security_id":1003985,
+    "field_id":19112,
+    "field_grp_id":37,
+    "value":"US TREASURY N/B",
+    "over_write_flg":"",
+    "user_id":10775,
+    "last_update":"7/12/2010 10:23:00 AM"
+  }
+]
